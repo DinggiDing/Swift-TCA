@@ -21,5 +21,5 @@ TCA_2 : SwiftUI + TCA + Combine + Alamofire
 </p>
 <p align="center">
   The Dog API (using Alamofire) + Combine + TCA<br>
-  ⚠️ Network Request Overload (with AsyncImage) ~> So, I use 'KingFisher'
+  ⚠️ Network Request Overload (with AsyncImage) ~> So, I used the 'KingFisher'
 </p>
