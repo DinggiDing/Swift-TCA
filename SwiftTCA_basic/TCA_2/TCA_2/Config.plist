@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   Config.plist
-   TCA_2
-
-   Created by 성재 on 6/17/24.
-   Copyright (c) 2024 ___ORGANIZATIONNAME___. All rights reserved.
--->
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>API_KEY</key>
+	<string>live_GfApPxgQEKbnmljMu9I3cNbiRIpnMCkXcCT9y53FGgVsHEyN1JWXZtBZG1Q5pLrn</string>
+</dict>
 </plist>

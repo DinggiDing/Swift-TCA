@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E5BBBC52C219A0800073F61 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7E5BBBC42C219A0800073F61 /* Alamofire */; };
+		7E5BBBC82C219AB700073F61 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7E5BBBC72C219AB700073F61 /* Kingfisher */; };
 		7E89FBF72C1FF5B800800E16 /* TCA_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E89FBF62C1FF5B800800E16 /* TCA_2App.swift */; };
 		7E89FBF92C1FF5B800800E16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E89FBF82C1FF5B800800E16 /* ContentView.swift */; };
 		7E89FBFB2C1FF5BA00800E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E89FBFA2C1FF5BA00800E16 /* Assets.xcassets */; };
@@ -15,6 +17,9 @@
 		7E89FC122C1FF5BB00800E16 /* TCA_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E89FC112C1FF5BB00800E16 /* TCA_2UITests.swift */; };
 		7E89FC142C1FF5BB00800E16 /* TCA_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E89FC132C1FF5BB00800E16 /* TCA_2UITestsLaunchTests.swift */; };
 		7E89FC222C1FF62D00800E16 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 7E89FC212C1FF62D00800E16 /* ComposableArchitecture */; };
+		7E89FC242C20187700800E16 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E89FC232C20187700800E16 /* Config.plist */; };
+		7E89FC262C2018CF00800E16 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7E89FC252C2018CF00800E16 /* .gitignore */; };
+		7E89FC2D2C201A1500800E16 /* DogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E89FC2C2C201A1500800E16 /* DogAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,9 @@
 		7E89FC0D2C1FF5BB00800E16 /* TCA_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCA_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E89FC112C1FF5BB00800E16 /* TCA_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_2UITests.swift; sourceTree = "<group>"; };
 		7E89FC132C1FF5BB00800E16 /* TCA_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E89FC232C20187700800E16 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		7E89FC252C2018CF00800E16 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7E89FC2C2C201A1500800E16 /* DogAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5BBBC82C219AB700073F61 /* Kingfisher in Frameworks */,
 				7E89FC222C1FF62D00800E16 /* ComposableArchitecture in Frameworks */,
+				7E5BBBC52C219A0800073F61 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,8 +106,11 @@
 		7E89FBF52C1FF5B800800E16 /* TCA_2 */ = {
 			isa = PBXGroup;
 			children = (
+				7E89FC232C20187700800E16 /* Config.plist */,
+				7E89FC252C2018CF00800E16 /* .gitignore */,
 				7E89FBF62C1FF5B800800E16 /* TCA_2App.swift */,
 				7E89FBF82C1FF5B800800E16 /* ContentView.swift */,
+				7E89FC2C2C201A1500800E16 /* DogAPI.swift */,
 				7E89FBFA2C1FF5BA00800E16 /* Assets.xcassets */,
 				7E89FBFC2C1FF5BA00800E16 /* Preview Content */,
 			);
@@ -147,6 +160,8 @@
 			name = TCA_2;
 			packageProductDependencies = (
 				7E89FC212C1FF62D00800E16 /* ComposableArchitecture */,
+				7E5BBBC42C219A0800073F61 /* Alamofire */,
+				7E5BBBC72C219AB700073F61 /* Kingfisher */,
 			);
 			productName = TCA_2;
 			productReference = 7E89FBF32C1FF5B800800E16 /* TCA_2.app */;
@@ -222,6 +237,8 @@
 			mainGroup = 7E89FBEA2C1FF5B800800E16;
 			packageReferences = (
 				7E89FC202C1FF62D00800E16 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				7E5BBBC32C219A0800073F61 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7E5BBBC62C219AB700073F61 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 7E89FBF42C1FF5B800800E16 /* Products */;
 			projectDirPath = "";
@@ -239,7 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E89FC262C2018CF00800E16 /* .gitignore in Resources */,
 				7E89FBFE2C1FF5BA00800E16 /* Preview Assets.xcassets in Resources */,
+				7E89FC242C20187700800E16 /* Config.plist in Resources */,
 				7E89FBFB2C1FF5BA00800E16 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +286,7 @@
 			files = (
 				7E89FBF92C1FF5B800800E16 /* ContentView.swift in Sources */,
 				7E89FBF72C1FF5B800800E16 /* TCA_2App.swift in Sources */,
+				7E89FC2D2C201A1500800E16 /* DogAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +618,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		7E5BBBC32C219A0800073F61 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		7E5BBBC62C219AB700073F61 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
 		7E89FC202C1FF62D00800E16 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
@@ -609,6 +645,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		7E5BBBC42C219A0800073F61 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E5BBBC32C219A0800073F61 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7E5BBBC72C219AB700073F61 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E5BBBC62C219AB700073F61 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
 		7E89FC212C1FF62D00800E16 /* ComposableArchitecture */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7E89FC202C1FF62D00800E16 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;

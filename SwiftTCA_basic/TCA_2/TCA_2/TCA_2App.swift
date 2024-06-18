@@ -12,7 +12,11 @@ import ComposableArchitecture
 struct TCA_2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(
+                store: Store(initialState: Dog.State()) {
+                    Dog()._printChanges()
+                }
+            )
         }
     }
 }
