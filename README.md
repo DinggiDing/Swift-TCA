@@ -8,6 +8,8 @@ TCA_1 : only use TCA ⇨ SwiftUI + TCA
   Simple Counter (using BindableAction)
 </p>
 
+&nbsp;
+&nbsp;
 
 TCA_2 : SwiftUI + TCA + Combine + Alamofire
 ---
